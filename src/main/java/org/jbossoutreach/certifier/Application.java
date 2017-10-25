@@ -11,6 +11,9 @@ import java.io.FileOutputStream;
 import java.io.IOException;
 
 public class Application {
+
+    // is this now a better comment?
+
     public static final String DEST = "~/new1.pdf";
     public static final String SOURCE_HTML = "templates/basic.html";
 
