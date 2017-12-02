@@ -15,6 +15,12 @@ public class Student {
 
     }
 
+    public Student(String name, String email, String certificate) {
+        this.name = name;
+        this.email = email;
+        this.certificate = certificate;
+    }
+
     public String getName() {
         return name;
     }

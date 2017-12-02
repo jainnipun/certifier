@@ -75,7 +75,7 @@ public class SendMail {
             BodyPart messageBodyPart1 = new MimeBodyPart();
 
             // Fill the message
-            messageBodyPart1.setText(messageText);
+            messageBodyPart1.setText(String.format(messageText,student.getName()));
 
             Multipart multipart = new MimeMultipart();
 
